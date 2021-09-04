@@ -10,10 +10,35 @@ body {
   font-style: italic;
 }
 
-#carrosel {
+.carrossel {
+  position: relative;
   width: 25%;
-  margin-left: 1%;
   height: auto;
+}
+
+#carrosseldireita {
+  right: 1%;
+  float: right;
+}
+
+#carrosselesquerda {
+  left: 1%;
+  float: left;
+}
+
+.group:before,
+.group::after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
 }
 
 .atalhoparagrafo {
@@ -22,6 +47,14 @@ body {
   text-align: center;
   font-family: "Sofia", sans-serif;
   font-size: 30px;
+}
+
+#viajemrapidadireita {
+  right: 1%;
+}
+
+.posabsolute {
+  position: relative;
 }
 
 .blacktextcolor {
