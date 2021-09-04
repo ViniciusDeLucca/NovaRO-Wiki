@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Variáveis*/
+/*LarGura Vinte e Cinco*/
+/*Mixins*/
+body {
+  background-color: gray;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#carrosel {
+  width: 25%;
+  margin-left: 1%;
+  height: auto;
+}
+
+.atalhoparagrafo {
+  width: 25%;
+  margin: 1%;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+}
+
+.blacktextcolor {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

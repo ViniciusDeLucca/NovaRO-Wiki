@@ -1,0 +1,21 @@
+body{
+    background-color: $color-background;
+}
+#italic{
+    font-style: $font-italic;
+}
+#carrosel{
+    width: $lgvc;
+    margin-left: 1%;
+    height: auto;
+}
+.atalhoparagrafo{
+    width: $lgvc;
+    margin: 1%;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+.blacktextcolor{
+    color: $color-textblack;
+}
