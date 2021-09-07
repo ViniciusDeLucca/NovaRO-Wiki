@@ -1,20 +1,16 @@
-body{
-    background-color: $color-background;
-}
 #italic{
     font-style: $font-italic;
 }
 .carrossel{
-    position: $absolutep;
+    margin: 1%;
+    position: $relativep;
     width: $lgvc;
     height: auto;
 }
 #carrosseldireita{
-    right: 1%;
     float: right;
 }
 #carrosselesquerda{
-    left: 1%;
     float: left;
 }
 .group:before,
@@ -29,18 +25,22 @@ body{
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 .atalhoparagrafo{
-    width: $lgvc;
-    margin: 1%;
+    
     text-align: center;
     font-family: "Sofia", sans-serif;
     font-size: 30px;
 }
-#viajemrapidadireita{
-    right: 1%;
-}
-.posabsolute{
-    position: $absolutep;
-}
 .blacktextcolor{
     color: $color-textblack;
+}
+#logonro{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 45.026041%;
+}
+#menezas{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 30%;
+    width: 20%;
 }
