@@ -7,3 +7,7 @@ $color-textblack: black;
 $relativep: relative;
 
 /*Mixins*/
+@mixin charmain {
+    position: absolute;
+    width: 20%;
+}
